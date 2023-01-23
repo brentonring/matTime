@@ -1,0 +1,7 @@
+{
+  "name": "matTime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
