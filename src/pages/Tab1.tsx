@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonMenuButton, IonButtons } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonMenuButton, IonButtons, IonButton } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab1.css';
 
@@ -19,7 +19,26 @@ const Tab1: React.FC = () => {
             <IonTitle size="large">Brackets</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
+        <div>
+          Wrestler 1
+          <form>
+            <label>
+              First Name
+              <input type="text" name="firstName" />
+            </label>
+            <br />
+            <label>
+              Last Name
+              <input type="text" name="lastName" />
+            </label>
+            <br />
+            <label>
+              Team
+              <input type="text" name="team" />
+            </label>
+            <input type='submit' value='Submit' />
+          </form>
+        </div>
       </IonContent>
     </IonPage>
   );
