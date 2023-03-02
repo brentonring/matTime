@@ -7,7 +7,6 @@ import axios from 'axios'
 const Tab1: React.FC = () => {
 
   const initialFormData: Wrestler = {
-    _id: '',
     firstName: '',
     lastName: '',
     team: '',

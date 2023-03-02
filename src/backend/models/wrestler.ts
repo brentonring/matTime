@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 interface Wrestler {
-    _id: string;
+    _id?: string;
     firstName: string;
     lastName: string;
     team: string;
